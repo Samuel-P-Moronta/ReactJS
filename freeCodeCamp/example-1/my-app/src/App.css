@@ -1,0 +1,41 @@
+/* Selector universal para todos los elementos*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html, body {
+	font-size: 18px;
+	background-color: #f5f6f7;
+}
+
+h1 {
+    max-width: 940px;
+    /*factor relativo al tamaño de la letra de su contenedor*/
+    font-size: 2.5em;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0;
+}
+
+.App {
+    /*View x height*/
+    min-height: 100vh;
+    /* Donde se van a ubicar los elementos del contenedor */
+    display: flex;
+    /* Si toma todo el contenedor se va a ubicar en la siguiente linea */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor-principal {
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
